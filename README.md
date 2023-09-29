@@ -1,3 +1,3 @@
 # ARCADE-Challenge
 
-arcade.grand-challenge.org
+[arcade.grand-challenge.org](https://arcade.grand-challenge.org/)https://arcade.grand-challenge.org/
