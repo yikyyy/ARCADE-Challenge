@@ -1,1 +1,1 @@
-The annotations in coco format were converted to mask form before training and the dataset was classified according to the coronary definition, naming the images in a format consistent with the nnUNet
+The annotations in coco format were converted to mask form before training and the dataset was classified according to the coronary artery definition, naming the images in a format consistent with the nnUNet
