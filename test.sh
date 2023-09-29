@@ -10,7 +10,7 @@ MEM_LIMIT="30g"
 # --cap-drop="ALL"：禁用容器中的所有特权功能
 # --security-opt="no-new-privileges"：禁止在容器内启用新的特权
 # --shm-size="128m"：设置共享内存的大小为128MB
-# --pids-limit="256"：限制容器的进程数上限为256个
+# --pids-limit="1024"：限制容器的进程数上限为1024个
 # -v $SCRIPTPATH/test/:/input/images/coronary-angiography-x-ray-stack/：
 # 将$SCRIPTPATH/test/本地路径挂载到容器中的/input/images/coronary-angiography-x-ray-stack/目录，因为本地测试的图像是在放在当前目录的test文件夹
 # -v arcade-output-$VOLUME_SUFFIX:/output/：将名为arcade-output-$VOLUME_SUFFIX的Docker卷挂载到容器中的/output/目录
