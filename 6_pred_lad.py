@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # initializes the network architecture, loads the checkpoint
     predictor.initialize_from_trained_model_folder(
         join(nnUNet_results, 'Dataset004_LAD/nnUNetTrainer__nnUNetPlans__2d'),
-        use_folds=('all'),
+        use_folds=(0, 1, 2, 3, 4),
         checkpoint_name='checkpoint_final.pth',
     )
     # variant 1: give input and output folders
